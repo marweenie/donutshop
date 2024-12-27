@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.donut-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.donut {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+  text-align: center;
+}
+
+.donut h2 {
+  margin: 0;
+  font-size: 1.5em;
+  padding-left: 0;
+  
+}
+
+h2{
+  padding-left:1em;
+}
+
+input {
+  padding: 1em;
+  margin: 0.5em;
+  width: 200px;
+}
+
+button {
+  padding: 1em;
+  background-color: #75107e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #670e6f;
+}
+
+header img.header-image {
+  max-width: 10%;
+  padding: 0.41em;
+  height: auto;
+}
+
+main {
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.button-container {
+  margin-top: auto; 
+}
+
+.edit-button, .delete-button {
+  width: 100%; 
+  margin: 0.2em 0;
+}
